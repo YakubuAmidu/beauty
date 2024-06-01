@@ -1,0 +1,47 @@
+.header__button {
+  @include borderNone;
+  padding: 1rem 2rem;
+
+  @include radialGradient-one;
+
+  border-radius: 0.5rem;
+  @include fontWeightBold;
+  font-size: 25px;
+
+  @include boxShadow-one;
+}
+
+.discover__container-link--one--button {
+  @include textDecorationNone;
+  padding: 1rem 2rem;
+
+  @include radialGradient-one;
+
+  color: var(--gray);
+  @include borderOnepx;
+  @include fontWeightBold;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.pricing__container-button {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  @include width100Percent;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.contact__container-left--form--button {
+  @include width100Percent;
+  color: var(--gray);
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  @include fontWeightBold;
+  @include borderOnepx;
+
+  @include radialGradient-one;
+}

@@ -1,0 +1,84 @@
+@mixin boxShadow-one {
+  box-shadow: 1px 6px 36px -12px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 6px 36px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 6px 36px -12px rgba(0, 0, 0, 0.75);
+}
+
+@mixin radialGradient-one {
+  background-image: radial-gradient(
+    rgba($light-pink, 05),
+    rgba($dark-pink, 0.9)
+  );
+}
+
+@mixin textAlignCenter {
+  text-align: center;
+}
+
+@mixin linearGradient {
+  background-image: linear-gradient(
+    to right,
+    rgba($light-pink, 05),
+    rgba($dark-pink, 0.9)
+  );
+}
+
+@mixin displayFlexdirectionRow {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin displayFlexdirectionColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin alignItemsLeft {
+  align-items: left;
+}
+
+@mixin alignItemsCenter {
+  align-items: center;
+}
+
+@mixin widthandheight100percent {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin fontFamilyPrata {
+  font-family: "Prata", serif;
+}
+
+@mixin fontFamilyPoppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@mixin fontFamilyLato {
+  font-family: "Lato", sans-serif;
+}
+
+@mixin fontWeightBold {
+  font-weight: bold;
+}
+
+@mixin borderOnepx {
+  border: 1px solid var(--white);
+}
+
+@mixin width100Percent {
+  width: 100%;
+}
+
+@mixin borderNone {
+  border: none;
+}
+
+@mixin textDecorationNone {
+  text-decoration: none;
+}
+
+@mixin widthAndHeight100percentViewPort {
+  width: 100vw;
+  height: 100vh;
+}
